@@ -33,4 +33,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/edt_username"/>
+
+    <TextView
+        android:id="@+id/tv_textarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_password"
+        android:hint="文本显示"
+        android:textSize="16sp"/>
 </RelativeLayout>
